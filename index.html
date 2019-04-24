@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <title>Crystals Collector</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col" id="title">
+                <h1>Crystals Collector</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col" id="instructions">
+                <h4>Instructions</h4>
+                <p>You are given a target number at the start of the game. Each crystal has a randomly assigned value
+                    that is hidden from you until you click on it. Clicking on a crystal adds the crystals value to your
+                    total score. You win the game if your total score matches the target number. You lose the game if
+                    your total score goes above the random number. Good luck!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mr-2" id="target-number">
+                <h4>Target Number</h4>
+                <p id="random-number"></p>
+            </div>
+            <div class="col ml-2" id="tally">
+                <h4>Your Number</h4>
+                <p id="your-number">0</p>
+            </div>
+        </div>
+
+        <div class="row" id="crystals">
+            <div class="col gem"><img id="emerald" src="assets/images/emerald.svg"></div>
+            <div class="col gem"><img id="citrine" src="assets/images/citrine.svg"></div>
+            <div class="col gem"><img id="amethyst" src="assets/images/amethyst.svg"></div>
+            <div class="col gem"><img id="topaz" src="assets/images/topaz.svg"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 mr-2" id="wins">
+                <h4>Wins</h4>
+                <p id="wins-count">0</p>
+            </div>
+            <div class="col-3 mx-2" id="losses">
+                <h4>Losses</h4>
+                <p id="losses-count">0</p>
+            </div>
+            <div class="col" id="play-again">
+                <button id="restart">Play Again</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

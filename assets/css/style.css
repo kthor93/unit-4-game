@@ -1,0 +1,62 @@
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#target-number, #tally, #wins, #losses {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+#title {
+    padding: 20px 0;
+}
+
+#crystals {
+    padding: 40px 0;
+}
+
+.gem, #title, #target-number, #tally, #wins, #losses, #instructions h4 {
+    text-align: center;
+}
+
+#instructions {
+    line-height: 1.5em;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-bottom: 10px;
+}
+
+#random-number, #your-number, #wins-count, #losses-count {
+    font-size: 48px;
+}
+
+#play-again {
+    text-align: center;
+    margin: auto;
+}
+
+#restart {
+    height: 40px;
+    width: 100px;
+}
