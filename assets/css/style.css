@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: #fbfbfb;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -9,7 +9,6 @@ body {
 }
 
 #target-number, #tally, #wins, #losses {
-    background-color: #fff;
     padding: 40px 20px;
 }
 
@@ -18,7 +17,7 @@ body {
 }
 
 #crystals {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .gem, #title, #target-number, #tally, #wins, #losses, #instructions h4 {
@@ -27,6 +26,8 @@ body {
 
 #instructions {
     line-height: 1.5em;
+    font-size: 14px;
+    margin-bottom: 40px;
 }
 
 .row {
@@ -34,10 +35,11 @@ body {
 }
 
 h1 {
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 300;
+    font-size: 32px;
+    color: #666;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 
 h4 {
@@ -57,6 +59,8 @@ h4 {
 }
 
 #restart {
-    height: 40px;
-    width: 100px;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 5px;
 }
